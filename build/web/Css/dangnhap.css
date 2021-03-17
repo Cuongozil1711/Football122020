@@ -1,0 +1,95 @@
+.wide_sign{
+    display: flex;
+    justify-content: center;
+}
+
+.sign_in{
+    width: 33%;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*position: relative;*/
+}
+
+.sign_in h1{
+    text-align: center;
+    color: #333;
+}
+
+.sign_in input{
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+    margin-right: 5px;
+}
+
+.header_web-input:first-child{
+    border:none;
+}
+.header_web-input{
+/*    width: 85%;*/
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.form-group{
+    /*margin-top: 15px;*/
+    margin-top: 15px;
+    /* margin-left: -60%; */
+    width: 85%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.form-note{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+}
+
+.check_true_false{
+    margin-top: 15px;
+    color: #f33a58;;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.check_click{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.check_click button{
+    width: 85%;
+    border: none;
+}
+
+.btn-success{
+    background-color: #2dcc70;
+    padding: 8px 0px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #1F7DDD;
+    padding: 8px 0px;
+    color: #fff;
+    cursor: pointer;
+}
